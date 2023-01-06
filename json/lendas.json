@@ -1,0 +1,112 @@
+[
+    {
+        "nome": "Lionel Andrés Messi Cuccittini",
+        "apelido": "Messi",
+        "idade": 35,
+        "titulosClube": 35,
+        "jogosClube": 778,
+        "golsClube": 673,
+        "dataNascimento": "24/06/1987",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2021/08/06/2ed24a43-b189-4ad2-ab01-2f6713fade3f/Legends-LEO-MESSI.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Xavier Hernández Creus",
+        "apelido": "Xavi",
+        "idade": 42,
+        "titulosClube": 25,
+        "jogosClube": 769,
+        "golsClube": 85,
+        "dataNascimento": "25/01/1980",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/03/04/e2b05142-6248-45e7-b453-e61aba62fa64/2-Xavi.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Andrés Iniesta Luján",
+        "apelido": "Iniesta",
+        "idade": 42,
+        "titulosClube": 31,
+        "jogosClube": 674,
+        "golsClube": 57,
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/03/04/66fdafea-a88e-4326-8a3b-495f226aae69/4-Iniesta.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Carles Puyol i Saforcada",
+        "apelido": "Puyol",
+        "idade": 44,
+        "titulosClube": 20,
+        "jogosClube": 593,
+        "golsClube": 19,
+        "dataNascimento": "14/04/1980",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/03/04/e468b5de-3fc8-45a8-ac57-332208666281/7-Puyol.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Ronaldo de Assis Moreira",
+        "apelido": "Ronaldinho",
+        "idade": 42,
+        "titulosClube": 5,
+        "jogosClube": 207,
+        "golsClube": 108,
+        "dataNascimento": "21/03/1980",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/03/04/b895d0da-fefe-4955-a7e8-6a71c9081a67/1-Ronaldinho.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Hendrik Johannes Johan Cruijff",
+        "apelido": "Cruijff",
+        "idade": "Falescido 24/03/2016",
+        "titulosClube": 2,
+        "jogosClube": 180,
+        "golsClube": 60,
+        "dataNascimento": "25/04/1947",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/04/27/c69f03cc-096e-4218-a37e-e2446ab7c0c1/23-Cruyff.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Josep Guardiola i Sala",
+        "apelido": "Peo Guardiola",
+        "idade": 51,
+        "titulosClube": 16,
+        "jogosClube": 384,
+        "golsClube": 12,
+        "dataNascimento": "18/01/1971",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/04/08/822c05e3-5ddb-4411-aae2-7403359c6272/GUARDIOLA.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Ronald Koeman",
+        "apelido": "Ronald Koeman",
+        "idade": 59,
+        "titulosClube": 10,
+        "jogosClube": 264,
+        "golsClube": 88,
+        "dataNascimento": "21/03/1963",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/03/04/199e8495-ee33-468d-9789-3438d5d99f89/12-Koeman.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Hristo Stoichkov",
+        "apelido": "Stoichkov",
+        "idade": 56,
+        "titulosClube": 18,
+        "jogosClube": 255,
+        "golsClube": 117,
+        "dataNascimento": "08/02/1966",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/04/28/e29cd5fb-8322-4abb-acba-08da67e4acb9/17-Stoichkov.png?width=300&height=451"
+    },
+    
+    {
+        "nome": "Luis Suárez Miramontes",
+        "apelido": "Luis Suárez",
+        "idade": 87,
+        "titulosClube": 6,
+        "jogosClube": 328,
+        "golsClube": 55,
+        "dataNascimento": "02/05/1935",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2020/04/28/68874b83-2c59-450e-b084-a81b5dcb30f7/24-Luis-Suarez.png?width=300&height=451"
+    }
+    
+]
+

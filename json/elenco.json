@@ -1,0 +1,191 @@
+
+[
+    {
+        "nome": "Marc-André ter Stegen",
+        "idade": 30,
+        "posicao": "GOL",
+        "numero": 1,
+        "dataNascimento":"30/12/1992",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/d57390d3-5cd5-426f-a1b2-e4cefb1a3d9a/01-MARC-ANDRE_TER_STEGEN.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Ignacio Iñaki Peña Sotorres",
+        "idade": "23",
+        "posicao": "GOL",
+        "numero": 13,
+        "dataNascimento": "02/03/1999",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/b17b8c7c-8385-4911-9629-39cffc9773d2/26-INAKI_PENA.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Héctor Bellerín Moruno",
+        "idade": 27,
+        "posicao": "LD",
+        "numero": 2,
+        "dataNascimento": "19/03/1995",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/002805b5-17b0-46bf-849a-00a1e63a2ddd/02-HECTOR_BELLERIN_.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Ronald Federico Araújo da Silva",
+        "idade": 23,
+        "posicao": "ZAG / LD",
+        "numero": 4,
+        "dataNascimento": "07/03/1999",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/04daeacd-0023-4927-a9df-417a942806ba/04-RONALD_ARAUJO_.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Andreas Bødtker Christensen",
+        "idade": 26,
+        "posicao": "ZAG",
+        "numero": 15,
+        "dataNascimento": "10/04/1996",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/cc2d00ce-8334-4349-b3c5-e8577c5ef066/15-ANDREAS_CHRISTENSEN.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Marcos Alonso Mendoza",
+        "idade": 32,
+        "posicao": "LE",
+        "numero": 17,
+        "dataNascimento": "28/12/1990",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/9c8408ec-43fe-4708-8d02-2340a2123a51/17-MARCOS_ALONSO.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Jordi Alba Ramos",
+        "idade": 33,
+        "posicao": "LE",
+        "numero": 18,
+        "dataNascimento": "21/03/1989",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/d29a8a79-5eab-45ff-8697-a15f683b1346/18-JORDI_ALBA.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Jules Olivier Koundé",
+        "idade": 24,
+        "posicao": "LD / ZAG",
+        "numero": 23,
+        "dataNascimento": "12/11/1998",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/6ed69443-89a7-43ae-9646-6231934568f6/23-JULES_KOUNDE.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Eric García Martret",
+        "idade": 21,
+        "posicao": "ZAG",
+        "numero": 24,
+        "dataNascimento": "09/01/2001",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/6aa34af9-1a56-41c0-9fa3-024253fa297c/24-ERIC_GARCIA.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Sergio Busquets Burgos",
+        "idade": 34,
+        "posicao": "VOL",
+        "numero": 5,
+        "dataNascimento": "16/07/1988",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/29bf33ee-2d59-4f81-9c51-992d7c5546cf/05-SERGIO_.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Pedro González López",
+        "idade": 20,
+        "posicao": "MC",
+        "numero": 8,
+        "dataNascimento": "25/11/2002",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/a4065cd7-9b67-4073-b957-80679c96e6c0/08-PEDRI.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Franck Yannick Kessié",
+        "idade": 26,
+        "posicao": "MC / VOL",
+        "numero": 19,
+        "dataNascimento": "19/12/1996",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/ba2470f2-b5c7-44ef-a058-0dbb8b6cc2ed/19-FRANCK_KESSIE.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Sergi Roberto Carnicer",
+        "idade": 30,
+        "posicao": "MC / LD",
+        "numero": 20,
+        "dataNascimento": "07/02/1992",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/79dfee0c-5078-4d90-996b-74f49d6a9531/20-S_ROBERTO.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Frenkie de Jong",
+        "idade": 25,
+        "posicao": "MC / VOL",
+        "numero": 21,
+        "dataNascimento": "12/05/1997",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/87c170bf-189d-448c-87d9-9f6c84838f40/21-FRENKIE_DE_JONG.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Pablo Martín Páez Gavira",
+        "idade": 18,
+        "posicao": "MC / PD / PE",
+        "numero": 30,
+        "dataNascimento": "05/08/2004",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/68339d90-282b-4e03-98fa-54395765867c/30-GAVI_.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Masour Ousmane Dembélé",
+        "idade": 25,
+        "posicao": "PD / PE",
+        "numero": 7,
+        "dataNascimento": "15/05/1997",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/c065cb6b-56a0-42e5-b303-2e128eb6171f/07-OUSMANE_DEMBELE.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Robert Lewandowski",
+        "idade": 34,
+        "posicao": "ST / ATA",
+        "numero": 9,
+        "dataNascimento": "21/08/1988",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/85247947-27dc-488c-a6cb-d81c5e391559/09-ROBERT_LEWANDOWSKI.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Anssumane Fati Vieira",
+        "idade": 20,
+        "posicao": "PE / ATA",
+        "numero": 10,
+        "dataNascimento": "31/10/2002",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/65cc4f69-2c91-4ab9-8576-d5596431eb49/10-ANSU_FATI.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Ferran Torres García",
+        "idade": 22,
+        "posicao": "PE / ATA",
+        "numero": 11,
+        "dataNascimento": "29/02/2000",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/165df284-c70a-4990-891e-60b70dcc5c74/11-FERRAN_TORRES.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Memphis Depay",
+        "idade": 28,
+        "posicao": "ST / PE / ATA",
+        "numero": 14,
+        "dataNascimento": "13/02/1994",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/c536ff41-515c-44a6-a189-8fcda7a618a6/14-MEMPHIS_DEPAY.jpg?width=470&height=470"
+    },
+    
+    {
+        "nome": "Raphael Dias Belloli",
+        "idade": 26,
+        "posicao": "PD / MD",
+        "numero": 22,
+        "dataNascimento": "14/12/1996",
+        "foto": "https://www.fcbarcelona.com/photo-resources/2022/11/02/a1edb34c-bc71-488e-acc1-0b33289e9443/22-RAPHINHA.jpg?width=470&height=470"
+    }
+]
