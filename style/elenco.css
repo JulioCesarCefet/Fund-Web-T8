@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  HEADER  */
+
+header{
+    background-color: #86244a;
+}
+
+.header-nav{
+    max-width: 70%;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-lista{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.header-pagina{
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-decoration: none;
+}
+
+/*  MAIN  */
+
+main{
+    max-width: 1200px;
+    background-color: #004f9a;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.botoes{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.botao{
+    display: flex;
+    width: 400px;
+    background-color: #86244a;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 2em;
+    
+}
+
+.esta{
+    color: #f7e602;
+}
+
+/*  LISTA  */
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lista-jogador{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.lista-imagem{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+}
+
+.lista-nome, .lista-idade, .lista-numero, .lista-posicao{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.lista-caracteristicas > p{
+    color: #fff
+}
+
+.lista-nome, .lista-idade, .lista-numero, .lista-posicao, .lista-caracteristicas > p{
+    font-size: 2em;
+}
+
+.lista-caracteristicas{
+    display: flex;
+}
+
+/*  LENDAS  */
+
+.lendas{
+    display: none;
+    flex-direction: column;
+}
+
+.lendas-lista{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.lendas-imagem{
+    margin: 0 20px 0 15px;
+    height: 260px;
+    width: 174px;
+}
+
+.lendas-caracteristicas{
+    display: flex;
+}
+
+.lendas-nome, .lendas-apelido, .lendas-idade, .lendas-titulos, .lendas-jogos, .lendas-gols{
+    font-size: 2.3em;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.lendas-caracteristicas > p{
+    color: #f7e602;
+    font-size: 2.3em;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #86244a;
+    padding: 10px 0;
+}
+
+.footer-lista{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.footer-item > a{
+    text-decoration: none;
+    color: #004;
+}
