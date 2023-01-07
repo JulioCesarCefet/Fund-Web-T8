@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  HEADER  */
+
+header{
+    background-color: #86244a;
+}
+
+.header-nav{
+    max-width: 70%;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-lista{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.header-pagina{
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-decoration: none;
+}
+
+.esta{
+    color: #f7e602;
+}
+
+/*  MAIN  */
+
+main{
+    max-width: 1200px;
+    background-color: #004f9a;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sessao-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.sessao-1-div{
+    width: 550px;
+    height: 300px;
+    margin: 20px;
+    border: solid 2px black;
+}
+
+.sessao-1-div{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #86244a, #004);
+}
+
+.sessao-2{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.sessao-2-imagem-container{
+    margin-bottom: 6px;
+}
+
+.sessao-2-text{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.sessao-2-imagem{
+    width: 300px;
+}
+
+.xavi{
+    height: 200px;
+}
+
+.spotify-container{
+    display: flex;
+    background-color: #1ed760;
+    height: 200px;
+}
+
+.spotify{
+    display: flex;
+    margin: auto 0;
+}
+
+.laporta{
+    height: 200px;
+}
+
+.nike-container{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: #000 ;
+}
+
+.nike{
+    display: flex;
+    width: 245px;
+    height: 200px;
+    margin: auto ;
+}
+
+.sessao-3{
+    position: relative;
+    display: flex;
+    background-image: linear-gradient(to right, #e1393d, #ffdf1a, #e1393d);
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.sessao-3-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+}
+
+.sessao-3-imagem{
+    width: 100%;
+    height: 100%;
+}
+
+.sessao-3-small{
+    position: absolute;
+    bottom: 4px;
+    font-size: 1.2em;
+}
+
+.sessao-4{
+    padding-bottom: 80px;
+}
+
+.sessao-4-div{
+    display: flex;
+    background-image: linear-gradient(to bottom, #86244a, #004, #86244a);
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+.sessao-4-div-lema{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: auto 0;
+    width: 200px;
+    text-align: center;
+    font-size: 3em;
+    color: #f7e602;
+}
+
+.sessao-4-div-nike{
+    width: 200px;
+    display: flex;
+}
+
+.sessao-4-div-spotify-container{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao-4-div-spotify{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin: auto;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #86244a;
+    padding: 10px 0;
+}
+
+.footer-lista{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.footer-item > a{
+    text-decoration: none;
+    color: #004;
+}
+
+.footer-icon{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 425px){
+    main{
+        width: 100%;
+    }
+
+    .sessao-1{
+        flex-direction: column;
+    }
+
+    .sessao-1-div{
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .sessao-1-div-esquerda{
+        margin-bottom: 130px;
+        padding-top: 10px;
+    }
+
+    .escudo{
+        width: 60%;
+    }
+
+    .estadio{
+        width: 100%;
+    }
+
+    .sessao-2-imagem-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0;
+        background-color: #004f9a;
+    }
+
+    .sessao-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .sessao-2-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .nike{
+        height: 300px;
+    }
+
+    .nike{
+        width: 300px;
+        height:200px;
+    }
+
+    .spotify-container{
+        display: flex;
+        background-color: #004f9a;
+        height: 158px;
+    }
+
+    .spotify{
+        width: 300px;
+    }
+
+    .sessao-3-div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sessao-3-small{
+        position: absolute;
+        bottom: 1px;
+        font-size: 0.4em;
+    }
+
+    .sessao-3-imagem{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sessao-4{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .sessao-4-div-img{
+        display: none;
+    }
+
+    .sessao-4-div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 120px;
+    }
+
+    .sessao-4-div-lema{
+        display: flex;
+        font-size: 2em;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .footer-text{
+        display: none;
+    }
+
+    .footer-icon{
+        display: flex;
+        width: 40px;
+    }
+    
+   
+
+
+}

@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  HEADER  */
+
+header{
+    background-color: #86244a;
+}
+
+.header-nav{
+    max-width: 70%;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-lista{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.header-pagina{
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-decoration: none;
+}
+
+.esta{
+    color: #f7e602;
+}
+
+/*  MAIN  */
+
+main{
+    max-width: 1200px;
+    background-color: #004f9a;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0;
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+section{
+    padding-bottom: 30px;
+}
+
+h2{
+    margin: 20px;
+    color: #d0002d;
+    font-size: 2.2em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.texto{
+    margin: 0 20px 0 0;
+    width:100%;
+}
+
+.texto > p{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.imagems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem{
+    width: 360px;
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #86244a;
+    padding: 10px 0;
+}
+
+.footer-lista{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.footer-item > a{
+    text-decoration: none;
+    color: #004;
+}
+
+@media screen and (max-width: 425px){
+
+    .texto > p{
+        font-size: 1em;
+    }
+
+    .imagem{
+        width:48%;
+        height: auto;
+    }
+
+    .terceira-imagem{
+        display: none;
+    }
+
+    
+}
