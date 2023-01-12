@@ -1,0 +1,372 @@
+@import url(main.css);
+
+
+
+
+/*   SECTION 1   */
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.section1-div{
+    width: 550px;
+    height: 300px;
+    margin: 20px;
+    border: solid 2px var(--black);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, var(--wine), var(--blue));
+}
+
+
+
+
+
+
+
+/*   SECTION 2   */
+
+.section2{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.section2-div-container{
+    margin-bottom: 6px;
+}
+
+.section2-div-container-img{
+    width: 300px;
+    height: 200px;
+}
+
+.section2-div-text{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+
+
+
+
+/*   SECTION 3   */
+
+.section3{
+    position: relative;
+    display: flex;
+    background-image: linear-gradient(to right, var(--red), var(--yellow), var(--red));
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.section3-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+}
+
+.section3-div-img{
+    width: 100%;
+    height: 100%;
+}
+
+.section3-div-text{
+    position: absolute;
+    bottom: 4px;
+    font-size: 1.2em;
+}
+
+
+
+
+
+/*   SECTION 4   */
+
+.section4{
+    padding-bottom: 80px;
+}
+
+.section4-div{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--wine), var(--blue), var(--wine));
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+.section4-div-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: auto 0;
+    width: 200px;
+    text-align: center;
+    font-size: 3em;
+    color: var(--yellow);
+}
+
+.section4-div-img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.section4-div-img-spotify{
+    width: 60%;
+    height: 60%;
+}
+
+
+
+
+
+/*   SCREENS   */
+
+@media screen and (max-width: 425px){
+
+    /*   SECTION 1   */
+
+    .section1{
+        flex-direction: column;
+    }
+
+    .section1-div{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .section1-div-1{
+        margin-bottom: 130px;
+        padding-top: 10px;
+    }
+
+    .section1-div-escudo{
+        width: 60%;
+    }
+
+    .section1-div-estadio{
+        width: 100%;
+    }
+
+    /*   SECTION 2   */
+
+    .section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .section2-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .section2-div-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0;
+        background-color: #004f9a;
+    }
+
+    .section2-div-container-img{
+        width: 90%;
+        height: auto;
+    }
+
+    /*   SECTION 3   */
+
+    .section3-div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .section3-div-text{
+        bottom: 1px;
+        font-size: 0.6em;
+    }
+
+    /*   SECTION 4   */
+
+    .section4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4-div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 120px;
+    }
+
+    .section4-div-img{
+        display: none;
+    }
+
+    .section4-div-text{
+        display: flex;
+        font-size: 2em;
+        width: 320px;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+
+    /*   SECTION 1   */
+
+    .section1{
+        justify-content: space-around;
+    }
+
+    .section1-div{
+        width: 46%;
+        height: auto;
+        margin: 0;
+        align-items: center;
+    }
+
+    .section1-div-escudo{
+        width: 80%;
+    }
+
+    .section1-div-estadio{
+        width: 100%;
+    }
+
+    /*   SECTION 2   */
+
+    .section2{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+
+    .section2-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:  0 auto 40px;
+        padding-bottom: 0;
+    }
+
+    .section2-div-container-img{
+        width: 200px;
+        height: 150px;
+        margin: auto;
+    }
+
+    /*   SECTION 3   */
+
+    .section3-div{
+        width: 134px;
+        height: 134px;
+    }
+
+    .section3-div-text{
+        position: absolute;
+        bottom: 1px;
+        font-size: 0.8em;
+    }
+
+    /*   SECTION 4   */
+
+    .section4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4-div{
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        text-align: center;
+    }
+
+    .section4-div-text{
+        display: flex;
+        font-size: 3em; 
+        width: 424px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section4-div-img{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+    /*   SECTION 1   */
+
+    .section1-div{
+        width: 48%;
+        height: auto;
+    }
+
+    .section1-div-escudo{
+        width: 80%;
+    }
+
+    .section1-div-estadio{
+        width: 100%;
+    }
+
+    /*   SECTION 2   */
+
+    .section2{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+
+    .section2-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:  0 auto 40px;
+        padding-bottom: 0;
+    }
+
+    .section2-div-container-img{
+        width: 374px;
+        height: 250px;
+        margin: auto;
+    }
+
+    /*   SECTION 3   */
+
+    .section3-div{
+        width: 220px;
+        height: 220px;
+    }
+
+    .section3-div-text{
+        position: absolute;
+        bottom: 1px;
+        font-size: 0.8em;
+    }
+}

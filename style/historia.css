@@ -1,0 +1,91 @@
+@import url(main.css);
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0;
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: var(--white);
+}
+
+.section{
+    padding-bottom: 30px;
+}
+
+.section-title{
+    margin: 20px;
+    color: var(--red);
+    font-size: 2.2em;
+}
+
+.section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.section-div-text{
+    margin: 0 20px 0 0;
+    width:100%;
+}
+
+.section-div-text-paragraph{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.section-div-pictures{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-div-pictures-img{
+    width: 360px;
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (max-width: 425px){
+
+    .section-div-text-paragraph{
+        font-size: 0.9em;
+    }
+
+    .section-div-pictures-img{
+        width:48%;
+        height: auto;
+    }
+
+    .section-div-pictures-img-last{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+
+    .section-div-text-paragraph{
+        font-size: 1.1em;
+    }
+
+    .section-div-pictures-img{
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+    .section-div-text-paragraph{
+        font-size: 1.2em;
+    }
+
+    .section-div-pictures-img{
+        width: 30%;
+        height: auto;
+    }
+}
+
+

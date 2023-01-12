@@ -1,0 +1,210 @@
+@import url(main.css);
+
+/*   BUTTON   */
+
+.button{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.button-change{
+    display: flex;
+    width: 400px;
+    background-color: var(--wine);
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 2em;
+    
+}
+
+.button-change-squad{
+    border: 2px solid var(--yellow);
+}
+
+.button-change-legends{
+    border: 2px solid var(--black);
+}
+
+/*  SQUAD  */
+
+.squad-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.squad-list-player{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.squad-list-player-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+}
+
+.squad-list-player-information-title{
+    margin-right: 10px;
+    color: var(--white);
+    font-size: 2em;
+}
+
+.squad-list-player-information-description{
+    color: var(--yellow);
+    font-size: 2em;
+}
+
+.squad-list-player-information{
+    display: flex;
+}
+
+/*  LEGENDS  */
+
+.legends-list{
+    display: none;
+    flex-direction: column;
+}
+
+.legends-list-player{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.legends-list-player-img{
+    margin: 0 20px 0 15px;
+    height: 260px;
+    width: 174px;
+}
+
+.legends-list-player-information{
+    display: flex;
+}
+
+.legends-list-player-information-title{
+    font-size: 2.3em;
+    color: var(--white);
+    margin-right: 20px;
+}
+
+.legends-list-player-information-description{
+    color: var(--yellow);
+    font-size: 2.3em;
+}
+
+@media screen and (max-width: 425px){
+
+    .button-change{
+        width: 150px;
+        font-size: 1em;;
+    }
+
+    .squad-list-player-img{
+        width: 90px;
+        height: 100px;
+        margin: 0 6px;
+    }
+
+    .squad-list-player-information-title, .squad-list-player-information-description{
+        font-size: 0.7em;
+        margin: 0 0 14px; 
+    }
+
+    .legends-list-player-img{
+        margin: 0 4px 0 6px;
+        height: 140px;
+        width: 90px;
+    }
+
+    .legends-list-player-information{
+        margin-bottom: 10px;
+    }
+
+    .legends-list-player-information-title{
+        font-size: 0.8em;
+        margin-right: 5px;
+    }
+
+    .legends-list-player-information-description{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+
+    .button-change{
+        width: 200px;
+        font-size: 1.3em;
+    }
+    
+    .squad-list-player-img{
+        width: 120px;
+        height: 130px;
+    }
+
+    .squad-list-player-information{
+        margin-bottom: 7px;
+    }
+
+    .squad-list-player-information-title, .squad-list-player-information-description{
+        font-size: 0.9em;
+        margin: 0 0 14px; 
+    }
+
+    .legends-list-player-img{
+        margin: 0 4px 0 6px;
+        height: 150px;
+        width: 96px;
+    }
+
+    .legends-list-player-information{
+        margin-bottom: 10px;
+    }
+
+    .legends-list-player-information-title, .legends-list-player-information-description{
+        font-size: 0.9em;
+        margin-right: 5px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+    .button-change{
+        width: 330px;
+        font-size: 1.6em;
+    }
+    
+    .squad-list-player-img{
+        width: 166px;
+        height: 178px;
+    }
+
+    .squad-list-player-information{
+        margin-bottom: 1px;
+    }
+
+    .squad-list-player-information-title, .squad-list-player-information-description{
+        font-size: 1.9em;
+        margin: 0 0 14px; 
+    }
+
+    .legends-list-player-img{
+        margin: 0 4px 0 6px;
+        height: 250px;
+        width: 160px;
+    }
+
+    .legends-list-player-information{
+        margin-bottom: 13px;
+    }
+
+    .legends-list-player-information-title, .legends-list-player-information-description{
+        font-size: 1.6em;
+        margin-right: 5px;
+    }
+}

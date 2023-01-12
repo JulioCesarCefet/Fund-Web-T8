@@ -1,0 +1,44 @@
+/*   IMPORT   */
+
+@import url(variables.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+
+
+
+/*   GLOBAL   */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+/*   DESKTOP   */
+
+main{
+    max-width: 1200px;
+    background-color: var(--blue2);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+/*   MOBILE / TABLET   */
+
+@media screen and (max-width: 1199px){
+    main{
+        width: 100%;
+    }
+}
