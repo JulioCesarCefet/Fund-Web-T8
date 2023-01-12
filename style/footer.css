@@ -1,0 +1,85 @@
+/*   DESKTOP   */
+
+footer{
+    background-color: var(--wine);
+    padding: 10px 0;
+}
+
+.footer-nav-list{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-nav-list-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.footer-nav-list-item-title{
+    font-size: 1.2em;
+}
+
+.footer-nav-list-item-text{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.footer-nav-list-item-icon{
+    display: none;
+}
+
+
+
+
+
+/*   MOBILE   */
+
+@media screen and (max-width: 425px){
+
+    .footer-nav-list-item-text{
+        display: none;
+    }
+    
+    .footer-nav-list-item-icon{
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+
+
+/*   TABLET   */
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+
+    .footer-nav-list-item-text{
+        display: none;
+    }
+    
+    .footer-nav-list-item-icon{
+        display: flex;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .footer-nav-list-item-title{
+        font-size: 1em;
+    }
+
+    .footer-nav-list-item-text{
+        font-size: 0.8em;
+    }
+}
